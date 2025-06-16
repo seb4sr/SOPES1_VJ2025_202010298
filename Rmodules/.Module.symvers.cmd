@@ -1,0 +1,1 @@
+cmd_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Rmodules/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Rmodules/Module.symvers -T /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Rmodules/modules.order -i Module.symvers -e 

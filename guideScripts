@@ -1,0 +1,19 @@
+script que cree contenedores 10
+script que ejecute el dockercompose y app
+script de los modulos
+script que borre los modulos y los contenedores y baje la aplicacion
+
+Contenedor de golang
+Contenendor de app web
+Contenedor de nodejs api
+Contener de db
+
+http://localhost:6000/server
+
+sudo docker run -d -p 6000:6000 dockerrecolector monitorserver
+
+sudo docker rm -f recolecctor
+
+Cada vez que levantamos el contenedor vincularlo con la carpeta del volume, esto para db
+
+sudo docker run -d -v ~/Universidad/J2025/SOPES1/PROYECTO1/SOPES1_VJ2025_202010298/db:/db 
