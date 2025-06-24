@@ -7,7 +7,7 @@
 #include <linux/sched/signal.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Juarez");
+MODULE_AUTHOR("s3r");
 MODULE_DESCRIPTION("Modulo CPU segun librerías permitidas");
 MODULE_VERSION("1.0");
 

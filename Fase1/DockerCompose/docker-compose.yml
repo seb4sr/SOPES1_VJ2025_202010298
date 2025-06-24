@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  monitorserver:
+    image: seb3s/sopes1_vj2025:golang
+    container_name: monitorserver
+    ports:
+      - "3000:3000"
+    networks:
+      - monitor-net
+
+  node-backend:
+    image: seb3s/sopes1_vj2025:nodejs-repartidor
+    container_name: node-container
+    ports:
+      - "5002:5002"
+    depends_on:
+      - monitorserver
+      - mysql
+    networks:
+      - monitor-net
+
+  frontend:
+    image: seb3s/sopes1_vj2025:react-grafics
+    container_name: front-container
+    ports:
+      - "3001:3001"
+    depends_on:
+      - node-backend
+    networks:
+      - monitor-net
+
+  mysql:
+    image: mysql
+    container_name: p1-sopes1-mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: SOPES1P1
+    volumes:
+      - mysql-vol:/var/lib/mysql
+    networks:
+      - monitor-net
+
+volumes:
+  mysql-vol:
+    external: true
+
+networks:
+  monitor-net:
+    driver: bridge

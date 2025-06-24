@@ -23,11 +23,11 @@ const [dataCpu, setDataCpu] = useState<CpuData | null>(null)
 
   const obtenerDatos = async () => {
     try {
-      const resRam = await fetch('http://node-container:5002/api/ramInfo')
+      const resRam = await fetch('http://localhost:5002/api/ramInfo')
       const jsonRam = await resRam.json()
       setDataRam(jsonRam.data)
 
-      const resCpu = await fetch('http://node-container:5002/api/cpuInfo')
+      const resCpu = await fetch('http://localhost:5002/api/cpuInfo')
       const jsonCpu = await resCpu.json()
       setDataCpu(jsonCpu.data)
     } catch (error) {
@@ -44,7 +44,7 @@ const [dataCpu, setDataCpu] = useState<CpuData | null>(null)
 
   const cpuChartData = dataCpu
     ? [
-        { name: 'En uso', value: parseFloat(dataCpu.uso_cpu_estimado) },
+        { name: 'En uso', value: 3 + parseFloat(String(dataCpu.procesos_totales)) },
         { name: 'Libre', value: 100 - parseFloat(dataCpu.uso_cpu_estimado) },
       ]
     : []
