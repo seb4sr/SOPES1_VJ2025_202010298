@@ -1,8 +1,8 @@
-cmd_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.o := gcc-11 -Wp,-MMD,/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/.creator.o.d -nostdinc -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -fzero-call-used-regs=used-gpr -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -falign-functions=16 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -gdwarf-5  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"creator"' -DKBUILD_MODNAME='"creator"' -D__KBUILD_MODNAME=kmod_creator -c -o /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.o /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.c   ; ./tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --retpoline --rethunk --sls --stackval --static-call --uaccess --prefix=16   --module /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.o
+cmd_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.o := gcc-11 -Wp,-MMD,/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/.creator3.o.d -nostdinc -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -I./ubuntu/include -include ./include/linux/compiler_types.h -D__KERNEL__ -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -funsigned-char -std=gnu11 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -fcf-protection=none -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -mindirect-branch-cs-prefix -mfunction-return=thunk-extern -fno-jump-tables -mharden-sls=all -fpatchable-function-entry=16,16 -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=1024 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-stack-clash-protection -fzero-call-used-regs=used-gpr -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -falign-functions=16 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -g -gdwarf-5  -fsanitize=bounds -fsanitize=shift -fsanitize=bool -fsanitize=enum  -DMODULE  -DKBUILD_BASENAME='"creator3"' -DKBUILD_MODNAME='"creator3"' -D__KBUILD_MODNAME=kmod_creator3 -c -o /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.o /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.c   ; ./tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --retpoline --rethunk --sls --stackval --static-call --uaccess --prefix=16   --module /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.o
 
-source_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.o := /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.c
+source_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.o := /home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.c
 
-deps_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.o := \
+deps_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.o := \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -969,86 +969,9 @@ deps_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase
   include/linux/seq_file.h \
   include/linux/string_helpers.h \
   include/linux/ctype.h \
-  include/linux/mm.h \
-    $(wildcard include/config/HAVE_ARCH_MMAP_RND_BITS) \
-    $(wildcard include/config/HAVE_ARCH_MMAP_RND_COMPAT_BITS) \
-    $(wildcard include/config/ARCH_USES_HIGH_VMA_FLAGS) \
-    $(wildcard include/config/ARCH_HAS_PKEYS) \
-    $(wildcard include/config/PPC) \
-    $(wildcard include/config/PARISC) \
-    $(wildcard include/config/SPARC64) \
-    $(wildcard include/config/ARM64) \
-    $(wildcard include/config/ARM64_MTE) \
-    $(wildcard include/config/HAVE_ARCH_USERFAULTFD_MINOR) \
-    $(wildcard include/config/SHMEM) \
-    $(wildcard include/config/MIGRATION) \
-    $(wildcard include/config/ARCH_HAS_PTE_SPECIAL) \
-    $(wildcard include/config/ARCH_HAS_PTE_DEVMAP) \
-    $(wildcard include/config/DEBUG_VM_RB) \
-    $(wildcard include/config/HAVE_FAST_GUP) \
-    $(wildcard include/config/PAGE_POISONING) \
-    $(wildcard include/config/INIT_ON_ALLOC_DEFAULT_ON) \
-    $(wildcard include/config/INIT_ON_FREE_DEFAULT_ON) \
-    $(wildcard include/config/DEBUG_PAGEALLOC) \
-    $(wildcard include/config/ARCH_WANT_HUGETLB_PAGE_OPTIMIZE_VMEMMAP) \
-    $(wildcard include/config/HUGETLBFS) \
-    $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
-  include/linux/mmap_lock.h \
-  include/linux/page_ext.h \
-  include/linux/stacktrace.h \
-    $(wildcard include/config/ARCH_STACKWALK) \
-    $(wildcard include/config/STACKTRACE) \
-    $(wildcard include/config/HAVE_RELIABLE_STACKTRACE) \
-  include/linux/stackdepot.h \
-    $(wildcard include/config/STACKDEPOT) \
-  include/linux/page_ref.h \
-    $(wildcard include/config/DEBUG_PAGE_REF) \
-  include/linux/sizes.h \
-  include/linux/pgtable.h \
-    $(wildcard include/config/HIGHPTE) \
-    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
-    $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
-    $(wildcard include/config/HAVE_ARCH_TRANSPARENT_HUGEPAGE_PUD) \
-    $(wildcard include/config/HAVE_ARCH_SOFT_DIRTY) \
-    $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
-    $(wildcard include/config/HAVE_ARCH_HUGE_VMAP) \
-    $(wildcard include/config/X86_ESPFIX64) \
-  arch/x86/include/asm/pgtable.h \
-    $(wildcard include/config/DEBUG_WX) \
-    $(wildcard include/config/PAGE_TABLE_CHECK) \
-  arch/x86/include/asm/pkru.h \
-  arch/x86/include/asm/fpu/api.h \
-    $(wildcard include/config/X86_DEBUG_FPU) \
-  arch/x86/include/asm/coco.h \
-  include/asm-generic/pgtable_uffd.h \
-  include/linux/page_table_check.h \
-  arch/x86/include/asm/pgtable_64.h \
-  arch/x86/include/asm/fixmap.h \
-    $(wildcard include/config/PROVIDE_OHCI1394_DMA_INIT) \
-    $(wildcard include/config/X86_IO_APIC) \
-    $(wildcard include/config/PCI_MMCONFIG) \
-    $(wildcard include/config/ACPI_APEI_GHES) \
-    $(wildcard include/config/INTEL_TXT) \
-  arch/x86/include/uapi/asm/vsyscall.h \
-  include/asm-generic/fixmap.h \
-  arch/x86/include/asm/pgtable-invert.h \
-  include/linux/memremap.h \
-    $(wildcard include/config/DEVICE_PRIVATE) \
-    $(wildcard include/config/PCI_P2PDMA) \
-  include/linux/ioport.h \
-  include/linux/huge_mm.h \
-  include/linux/sched/coredump.h \
-    $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
-  include/linux/vmstat.h \
-    $(wildcard include/config/VM_EVENT_COUNTERS) \
-    $(wildcard include/config/DEBUG_TLBFLUSH) \
-  include/linux/vm_event_item.h \
-    $(wildcard include/config/MEMORY_BALLOON) \
-    $(wildcard include/config/BALLOON_COMPACTION) \
-    $(wildcard include/config/ZSWAP) \
 
-/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.o: $(deps_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.o)
+/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.o: $(deps_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.o)
 
-$(deps_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.o):
+$(deps_/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.o):
 
-/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase1/Rmodules/creator.o: $(wildcard ./tools/objtool/objtool)
+/home/sebas/Universidad/J2025/SOPES1/Proyecto1/SOPES1_VJ2025_202010298/Fase2/Pmodules/creator3.o: $(wildcard ./tools/objtool/objtool)

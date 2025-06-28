@@ -1,55 +1,13 @@
-'use client'
-import { useState } from 'react'
+Si el servicio está en tu localhost:
 
-export default function Home() {
-  const [dataram, setData] = useState<any>(null)
-  const [datacpu, setData2] = useState<any>(null)
+~/.local/bin/locust -f locustfile.py --host http://localhost:3000
 
-  const obtenerDatos = async () => {
-    const res = await fetch('http://localhost:5002/api/ramInfo')
-    const json = await res.json()
-    console.log("JSON recibido:", json)
-    setData(json.data)
-    
-  }
-  const obtenerDatos2 = async () => {
-    const res = await fetch('http://localhost:5002/api/cpuInfo')
-    const json = await res.json()
-    console.log("JSON recibido:", json)
-    setData2(json.data)
-  }
+Si el servicio está en tu VM en GCP, reemplaza localhost por la IP externa de la VM:
 
-  return (
-    <main className="p-4">
-      <h1 className="text-2xl font-bold">Bienvenido a mi app</h1>
-      <p>Esta es la página principal conectada a una API en Node.js</p>
+~/.local/bin/locust -f locustfile.py --host http://<IP-EXTERNA>:3000
 
-      <button
-        className="mt-4 p-2 bg-blue-500 text-white rounded"
-        onClick={() => {
-          obtenerDatos()
-          obtenerDatos2()
-        }}
-      >
-        Obtener Info de RAM
-      </button>
+~/.local/bin/locust -f locustfile.py --host http://localhost:3000/monitorserver --headless -u 300 -r 10 -t 3m
 
-      {dataram && (
-        <div className="mt-4">
-          <h2 className="font-bold text-lg">RAM</h2>
-          <p>Total: {dataram.totalMB} GB</p>
-          <p>Libre: {dataram.libreMB} GB</p>
-          <p>En uso: {dataram.usoMB} GB</p>
-        </div> 
-      )}
-      {datacpu && (
-        <div className="mt-4">
-          <h2 className="font-bold text-lg">RAM</h2>
-          <p>Total: {datacpu.procesos_totales} </p>
-          <p>Libre: {datacpu.procesos_ejecucion} </p>
-          <p>En uso: {datacpu.uso_cpu_estimado} </p>
-        </div> 
-      )}
-    </main>
-  )
-}
+
+
+sudo docker run --rm polinux/stress -c 1 -m 1 --timeout 180s

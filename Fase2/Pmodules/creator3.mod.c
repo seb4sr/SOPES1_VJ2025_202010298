@@ -32,12 +32,9 @@ __used __section("__versions") = {
 	{ 0x122c3a7e, "_printk" },
 	{ 0x5b8239ca, "__x86_return_thunk" },
 	{ 0xce4f6bb6, "single_open" },
-	{ 0xac0dde12, "remove_proc_entry" },
 	{ 0x854ad34a, "init_task" },
 	{ 0xd65b4e21, "seq_printf" },
-	{ 0x17de3d5, "nr_cpu_ids" },
-	{ 0x9e683f75, "__cpu_possible_mask" },
-	{ 0x21ea5251, "__bitmap_weight" },
+	{ 0xac0dde12, "remove_proc_entry" },
 	{ 0xd8e57183, "seq_read" },
 	{ 0x6e7fd3b8, "seq_lseek" },
 	{ 0x5d613415, "single_release" },
@@ -49,4 +46,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "21426F3B4E550BF02BF37F1");
+MODULE_INFO(srcversion, "B6DF0C03367E4F24CAAB6BD");
